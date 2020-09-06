@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    font-family: monospace;
+}
+
+/* navabar */
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background: #470634;
+}
+
+.navbar ul{
+    list-style: none;
+    text-align: center;
+    margin-right: 55px;
+    line-height: 50px;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    color: #FF0048;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    color: #FFF;
+}
+
+.navbar ul li .notFirst{
+    margin-left: 30px;
+}
+
+/* web folk */
+
+.web{
+    text-align: center;
+    background-image: url(../images/coverPage2.PNG);
+    height: 700px;
+    background-size: cover;
+    padding-top: 0;
+    color: #FFF;
+    position: relative;
+}
+
+.web .folk{
+    padding-top: 80px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.web .folk h2{
+    margin: 0;
+    font-size: 40px;
+}
+
+.web .folk p{
+    font-size: 25px;
+}
+
+/* form */
+
+.form{
+    text-align: center;
+}
+
+.form input{
+    width: 500px;
+    height: 30px;
+    padding: 20px 10px;
+    background: #DF1A5A;
+    border: 0;
+    margin-bottom: 15px;
+}
+
+.form textarea{
+    width: 500px;
+    height: 170px;
+    padding: 20px 10px;
+    background: #DF1A5A;
+    border: 0;
+    margin-bottom: 15px;
+}
+
+.form button{
+    display: block;
+    margin: auto;
+    border:0;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #FFF;
+}
+
+/* Footer */
+
+.footer{
+    background: #DDD;
+    text-align: center;
+    line-height: 35px;
+    height: 50px;
+    font-size: 18px;
+}
